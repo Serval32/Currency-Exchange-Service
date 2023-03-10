@@ -1,0 +1,23 @@
+Currency Exchange Service
+http://localhost:8000/currency-exchange/from/USD/to/BGN
+
+Currency Conversion Service
+http://localhost:8100/currency-converter/from/USD/to/BGN/quantity/100
+http://localhost:8100/currency-converter-feign/from/USD/to/BGN/quantity/100
+
+Eureka
+http://localhost:8761/
+
+API Gateway
+http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/USD/to/BGN
+http://localhost:8765/CURRENCY-CONVERSION-SERVICE/currency-converter/from/USD/to/BGN/quantity/100
+http://localhost:8765/CURRENCY-CONVERSION-SERVICE/currency-converter-feign/from/USD/to/BGN/quantity/100
+
+http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/BGN
+http://localhost:8765/currency-conversion-service/currency-converter/from/USD/to/BGN/quantity/100
+http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/BGN/quantity/100
+
+http://localhost:8765/currency-exchange/from/USD/to/BGN
+http://localhost:8765/currency-converter/from/USD/to/BGN/quantity/100
+http://localhost:8765/currency-converter-feign/from/USD/to/BGN/quantity/100
+http://localhost:8765/currency-converter-new/from/USD/to/BGN/quantity/100
